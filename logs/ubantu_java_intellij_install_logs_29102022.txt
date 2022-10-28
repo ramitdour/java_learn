@@ -1,0 +1,122 @@
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo apt-get update
+[sudo] password for ramitdour:
+Get:1 http://dl.google.com/linux/chrome/deb stable InRelease [1,811 B]
+Hit:2 http://in.archive.ubuntu.com/ubuntu focal InRelease
+Get:3 http://dl.google.com/linux/chrome/deb stable/main amd64 Packages [1,111 B]
+Get:4 http://in.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Ign:5 http://ppa.launchpad.net/fixnix/netspeed/ubuntu focal InRelease
+Get:6 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Hit:7 https://screenrec.com/download/ubuntu stable InRelease
+Hit:8 http://ppa.launchpad.net/micahflee/ppa/ubuntu focal InRelease
+Get:9 http://in.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Hit:10 http://ppa.launchpad.net/obsproject/obs-studio/ubuntu focal InRelease
+Get:11 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 Packages [2,196 kB]
+Ign:12 http://ppa.launchpad.net/ole.wolf/rarcrack/ubuntu focal InRelease
+Get:13 http://security.ubuntu.com/ubuntu focal-security/main amd64 DEP-11 Metadata [40.8 kB]
+Get:14 http://security.ubuntu.com/ubuntu focal-security/universe amd64 DEP-11 Metadata [93.2 kB]
+Err:15 http://ppa.launchpad.net/fixnix/netspeed/ubuntu focal Release
+  404  Not Found [IP: 2620:2d:4000:1::3e 80]
+Get:16 http://security.ubuntu.com/ubuntu focal-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+Err:17 http://ppa.launchpad.net/ole.wolf/rarcrack/ubuntu focal Release
+  404  Not Found [IP: 2620:2d:4000:1::3e 80]
+Get:18 http://in.archive.ubuntu.com/ubuntu focal-updates/main i386 Packages [745 kB]
+Get:19 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 DEP-11 Metadata [274 kB]
+Get:20 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 c-n-f Metadata [16.0 kB]
+Get:21 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 Packages [972 kB]
+Get:22 http://in.archive.ubuntu.com/ubuntu focal-updates/universe i386 Packages [697 kB]
+Get:23 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 DEP-11 Metadata [405 kB]
+Get:24 http://in.archive.ubuntu.com/ubuntu focal-updates/universe amd64 c-n-f Metadata [21.8 kB]
+Get:25 http://in.archive.ubuntu.com/ubuntu focal-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:26 http://in.archive.ubuntu.com/ubuntu focal-backports/main amd64 DEP-11 Metadata [7,992 B]
+Get:27 http://in.archive.ubuntu.com/ubuntu focal-backports/universe amd64 DEP-11 Metadata [30.5 kB]
+Reading package lists... Done
+E: The repository 'http://ppa.launchpad.net/fixnix/netspeed/ubuntu focal Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository 'http://ppa.launchpad.net/ole.wolf/rarcrack/ubuntu focal Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo apt-get install java-common
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+java-common is already the newest version (0.72).
+java-common set to manually installed.
+The following packages were automatically installed and are no longer required:
+  chromium-codecs-ffmpeg-extra gstreamer1.0-vaapi libfwupdplugin1
+  libgstreamer-plugins-bad1.0-0 libva-wayland2
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 18 not upgraded.
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo dpkg --install java-11-amazon-corretto-jdk_11.0.17.8-1_amd64.deb
+Selecting previously unselected package java-11-amazon-corretto-jdk:amd64.
+(Reading database ... 234364 files and directories currently installed.)
+Preparing to unpack java-11-amazon-corretto-jdk_11.0.17.8-1_amd64.deb ...
+Unpacking java-11-amazon-corretto-jdk:amd64 (1:11.0.17.8-1) ...
+Setting up java-11-amazon-corretto-jdk:amd64 (1:11.0.17.8-1) ...
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/java to provide /usr/bin/java (java) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/keytool to provide /usr/bin/keytool (keytool) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/rmid to provide /usr/bin/rmid (rmid) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/rmiregistry to provide /usr/bin/rmiregistry (rmiregistry) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jjs to provide /usr/bin/jjs (jjs) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/pack200 to provide /usr/bin/pack200 (pack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/unpack200 to provide /usr/bin/unpack200 (unpack200) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/javac to provide /usr/bin/javac (javac) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jaotc to provide /usr/bin/jaotc (jaotc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jlink to provide /usr/bin/jlink (jlink) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jmod to provide /usr/bin/jmod (jmod) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jhsdb to provide /usr/bin/jhsdb (jhsdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jar to provide /usr/bin/jar (jar) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jarsigner to provide /usr/bin/jarsigner (jarsigner) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/javadoc to provide /usr/bin/javadoc (javadoc) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/javap to provide /usr/bin/javap (javap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jcmd to provide /usr/bin/jcmd (jcmd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jconsole to provide /usr/bin/jconsole (jconsole) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jdb to provide /usr/bin/jdb (jdb) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jdeps to provide /usr/bin/jdeps (jdeps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jdeprscan to provide /usr/bin/jdeprscan (jdeprscan) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jimage to provide /usr/bin/jimage (jimage) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jinfo to provide /usr/bin/jinfo (jinfo) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jmap to provide /usr/bin/jmap (jmap) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jps to provide /usr/bin/jps (jps) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jrunscript to provide /usr/bin/jrunscript (jrunscript) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jshell to provide /usr/bin/jshell (jshell) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jstack to provide /usr/bin/jstack (jstack) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jstat to provide /usr/bin/jstat (jstat) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/jstatd to provide /usr/bin/jstatd (jstatd) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/rmic to provide /usr/bin/rmic (rmic) in auto mode
+update-alternatives: using /usr/lib/jvm/java-11-amazon-corretto/bin/serialver to provide /usr/bin/serialver (serialver) in auto mode
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo update-alternatives --config java
+There are 2 choices for the alternative java (providing /usr/bin/java).
+
+  Selection    Path                                            Priority   Status
+------------------------------------------------------------
+* 0            /usr/lib/jvm/java-11-amazon-corretto/bin/java    11100017  auto mode
+  1            /usr/lib/jvm/java-11-amazon-corretto/bin/java    11100017  manual mode
+  2            /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java   1081      manual mode
+
+Press <enter> to keep the current choice[*], or type selection number: 1
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo update-alternatives --config javac
+There is only one alternative in link group javac (providing /usr/bin/javac): /usr/lib/jvm/java-11-amazon-corretto/bin/javac
+Nothing to configure.
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo update-alternatives --config javac
+There is only one alternative in link group javac (providing /usr/bin/javac): /usr/lib/jvm/java-11-amazon-corretto/bin/javac
+Nothing to configure.
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ java -v
+Unrecognized option: -v
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ java -version
+openjdk version "11.0.17" 2022-10-18 LTS
+OpenJDK Runtime Environment Corretto-11.0.17.8.1 (build 11.0.17+8-LTS)
+OpenJDK 64-Bit Server VM Corretto-11.0.17.8.1 (build 11.0.17+8-LTS, mixed mode)
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo snap install intellij-idea-community
+error: This revision of snap "intellij-idea-community" was published using
+       classic confinement and thus may perform arbitrary system changes
+       outside of the security sandbox that snaps are usually confined to,
+       which may put your system at risk.
+
+       If you understand and want to proceed repeat the command including
+       --classic.
+ramitdour@ramitdour-System-Product-Name:~/Downloads$ sudo snap install intellij-idea-community --classic
+intellij-idea-community 2022.2.3 from jetbrains** installed
+ramitdour@ramitdour-System-Product-Name:~/Downloads$

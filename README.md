@@ -1,1 +1,1 @@
-Hello JAVA
+Notes of JAVA
