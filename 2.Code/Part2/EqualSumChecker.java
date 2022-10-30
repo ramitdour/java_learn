@@ -7,6 +7,8 @@ public class EqualSumChecker {
         } else {
             return false;
         }
+// also
+//        return  ((a + b) == c) ;
 
     }
 }
