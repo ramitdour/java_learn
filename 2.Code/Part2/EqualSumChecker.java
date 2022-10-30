@@ -7,5 +7,6 @@ public class EqualSumChecker {
         } else {
             return false;
         }
+
     }
 }
