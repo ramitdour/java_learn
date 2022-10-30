@@ -1,6 +1,8 @@
+package Part1;
+
 public class NonPrimitiveDataType {
     public static void main(String[] args) {
-        System.out.println("NonPrimitiveDataType");
+        System.out.println("Part1.NonPrimitiveDataType");
 
 
         // String is immutable in JAVA , new string is created old one is discarded.

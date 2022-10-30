@@ -1,3 +1,5 @@
+package Part1;
+
 public class ConditionAndLogic {
     public static void main(String[] args) {
         System.out.println("C&L");

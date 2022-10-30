@@ -1,6 +1,8 @@
+package Part1;
+
 public class Operators {
     public static void main(String[] args) {
-        System.out.println("Operators");
+        System.out.println("Part1.Operators");
 
 
         int a = 7 ;
