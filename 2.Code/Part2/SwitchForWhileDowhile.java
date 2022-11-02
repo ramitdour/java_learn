@@ -1,4 +1,4 @@
-package Part3;
+package Part2;
 
 public class SwitchForWhileDowhile {
     public static void main(String[] args) {
