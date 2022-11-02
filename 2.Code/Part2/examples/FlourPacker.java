@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 public class FlourPacker {
     // write your code here
     public static void main(String[] args) {

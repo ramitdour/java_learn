@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 
 public class MegaBytesConverter {
     public static void printMegaBytesAndKiloBytes(int kiloBytes){

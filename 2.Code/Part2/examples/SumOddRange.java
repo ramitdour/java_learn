@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 
 public class SumOddRange {
     public static boolean isOdd(int x){

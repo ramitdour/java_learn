@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 
 public class MinutesToYearsDaysCalculator {
     // write your code here

@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 
 public class EqualSumChecker {
     public static boolean hasEqualSum(int a, int b, int c) {

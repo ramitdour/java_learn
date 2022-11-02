@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 
 public class NumberToWords {
     // write your code here

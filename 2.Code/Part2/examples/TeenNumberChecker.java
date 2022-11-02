@@ -1,4 +1,4 @@
-package Part2;
+package Part2.examples;
 
 public class TeenNumberChecker {
     public static boolean hasTeen(int a, int b, int c) {
