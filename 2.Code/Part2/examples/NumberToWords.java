@@ -20,7 +20,7 @@ public class NumberToWords {
 
 
 
-        String num_name[] = {"Zero","One","Two","Three","Four","Five",
+        String[] num_name = {"Zero","One","Two","Three","Four","Five",
                 "Six","Seven","Eight","Nine"} ;
 
         String ps = "";

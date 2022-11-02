@@ -18,10 +18,6 @@ public class PerfectNumber {
             }
         }
 
-        if (sum_div == number){
-            return true;
-        } else{
-            return false;
-        }
+        return sum_div == number;
     }
 }

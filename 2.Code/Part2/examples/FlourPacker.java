@@ -8,7 +8,7 @@ public class FlourPacker {
         System.out.println( canPack(2,2,11));
         System.out.println( canPack(-3,2,12));
 
-        System.out.println("");
+        System.out.println();
 
         System.out.println( canPack(0,5,5));
         System.out.println( canPack(1,5,10));
@@ -46,12 +46,7 @@ public class FlourPacker {
             return true;
         }
 
-        if( (goal - bigCount*5 >= 0) && ( (goal - bigCount*5  - smallCount) <=0  )  ){
-            return true;
-        }
-
-        return false;
-
+        return (goal - bigCount * 5 >= 0) && ((goal - bigCount * 5 - smallCount) <= 0);
 
 
     }

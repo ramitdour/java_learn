@@ -25,7 +25,7 @@ public class DiagonalStar {
                         System.out.print(" ");
                     }
                 }
-                System.out.println("");
+                System.out.println();
             }
         }
     }

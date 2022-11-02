@@ -1,7 +1,7 @@
 package Part3.examples;
 
 public class Carpet {
-    private double cost;
+    private final double cost;
 
     public Carpet(double cost) {
         if(cost < 0 ){

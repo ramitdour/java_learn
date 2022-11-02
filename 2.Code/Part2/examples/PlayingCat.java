@@ -7,11 +7,7 @@ public class PlayingCat {
             return false;
         }else{
             if (!summer){
-                if (temperature > 35 ){
-                    return false;
-                }else{
-                    return true;
-                }
+                return temperature <= 35;
             }else{
                 return true;
             }

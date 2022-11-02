@@ -12,14 +12,10 @@ public class LastDigitChecker {
         int z =  (c%10);
 
 
-        if ( x ==y || y == z || z == x ){
-            return true;
-        }
-        return false;
+        return x == y || y == z || z == x;
     }
 
     public static boolean isValid(int n){
-        if ( (n < 10 )|| (n > 1000)) { return false;}
-        return true;
+        return (n >= 10) && (n <= 1000);
     }
 }

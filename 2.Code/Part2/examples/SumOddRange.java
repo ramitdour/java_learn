@@ -2,11 +2,7 @@ package Part2.examples;
 
 public class SumOddRange {
     public static boolean isOdd(int x){
-        if (x < 0 || (x % 2 == 0)) {
-            return false;
-
-        }
-        return true;
+        return x >= 0 && (x % 2 != 0);
 
     }
 

@@ -12,9 +12,6 @@ public class SharedDigit {
         int y_a = y % 10 ;
         y /= 10;
 
-        if( (x == y) ||(x == y_a) ||(x_a == y) ||(x_a == y_a) ){
-            return true;
-        }
-        return false;
+        return (x == y) || (x == y_a) || (x_a == y) || (x_a == y_a);
     }
 }

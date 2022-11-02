@@ -16,8 +16,9 @@ public class LargestPrime {
             if(number % i == 0){
                 boolean isPrime = true ;
                 for(int j = 2 ; j <= i/2 ; j++){
-                    if(i % j == 0){
-                        isPrime = false ;
+                    if (i % j == 0) {
+                        isPrime = false;
+                        break;
                     }
                 }
                 if (isPrime){

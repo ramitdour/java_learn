@@ -35,7 +35,7 @@ public class SwitchForWhileDowhile {
             }
             System.out.println(i);
         }
-        System.out.println(String.format("your bill is %.2f Rupees" , 2.948139f));
+        System.out.printf("your bill is %.2f Rupees%n", 2.948139f);
 
         int counter_while = 1;
         while (counter_while < 10){

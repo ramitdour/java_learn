@@ -21,11 +21,7 @@ public class NumberPalindrome {
         if(number < 0){
             reversed_no *= -1;
         }
-        if (number == reversed_no){
-            return true;
-        }else {
-            return  false;
-        }
+        return number == reversed_no;
 
     }
 }
