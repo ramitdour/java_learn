@@ -29,5 +29,63 @@ public class Main {
         System.out.println("Pages printed was " + pagesPrinted +" new total print count for printer = " +printer.getPagesPrinted());
         pagesPrinted = printer.printPages(2);
         System.out.println("Pages printed was " + pagesPrinted +" new total print count for printer = " +printer.getPagesPrinted());
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
+
+        for(int i=1; i<6; i++) {
+            Movie movie = randomMovie(i);
+
+            System.out.println("Movie #" + i +
+                    " : " + movie.getName() + "\n" +
+                    "Plot: " + movie.plot() + "\n");
+        }
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
+
+        Car car = new Car(8, "Base car");
+        System.out.println(car.startEngine());
+        System.out.println(car.accelerate());
+        System.out.println(car.brake());
+
+        Mitsubishi mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+        System.out.println(mitsubishi.startEngine());
+        System.out.println(mitsubishi.accelerate());
+        System.out.println(mitsubishi.brake());
+
+        Ford ford = new Ford(6, "Ford Falcon");
+        System.out.println(ford.startEngine());
+        System.out.println(ford.accelerate());
+        System.out.println(ford.brake());
+
+        Holden holden = new Holden(6, "Holden Commodore");
+        System.out.println(holden.startEngine());
+        System.out.println(holden.accelerate());
+        System.out.println(holden.brake());
+
+
+
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
+
+
+
+
+    }
+
+    public static Movie randomMovie(int m) {
+
+        switch (m) {
+            case 1:
+                return new Jaws();
+            case 2:
+                return new IndependenceDay();
+            case 3:
+                return new MazeRunner();
+            case 4:
+                return new StarWars();
+            case 5:
+                return new Forgetable();
+        }
+
+        return null;
     }
 }
