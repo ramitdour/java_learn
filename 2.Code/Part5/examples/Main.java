@@ -1,5 +1,6 @@
 package Part5.examples;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -19,7 +20,16 @@ public class Main {
         }
 
         SortedArray s = new SortedArray();
+        System.out.println("+++++++++++++++++++++++++++++++++++++++++++++++====");
+        ArrayList<Integer> nums= new ArrayList<Integer>();
+        nums.add(5);
+        nums.add(6);
+        nums.add(7);
+        nums.add(1,99);
+        nums.contains(6);
+        System.out.println(nums.get(1));
 
+        System.out.println(nums);
 
     }
 }
