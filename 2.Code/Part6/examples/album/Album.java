@@ -3,9 +3,7 @@ package Part6.examples.album;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
-/**
- * Created by dev on 18/09/15.
- */
+
 public class Album {
     private String name;
     private String artist;
@@ -47,6 +45,7 @@ public class Album {
 
         public SongList() {
             this.songs = new ArrayList<Song>();
+//            Album.this.songs // to access outer class attribute
         }
 
         public boolean add(Song song) {
