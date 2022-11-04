@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // LOCAL INNER CLASS
 //        class ClickListener implements Button.OnClickListener {
 //            public ClickListener() {
 //                System.out.println("I've been attached");
@@ -20,6 +21,9 @@ public class Main {
 //        }
 //
 //        btnPrint.setOnClickListener(new ClickListener());
+
+
+        // ANONYMOUS INNER CLASS
         btnPrint.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(String title) {
