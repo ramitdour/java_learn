@@ -15,5 +15,7 @@ public class Main {
         } else {
             System.out.println("Sorry, seat is taken");
         }
+
+//        theatre.getSeats();
     }
 }
