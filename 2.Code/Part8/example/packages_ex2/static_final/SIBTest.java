@@ -5,7 +5,7 @@ public class SIBTest {
 
     static {
         owner = "tim";
-        System.out.println("SIBTest static initialization block called");
+        System.out.println("1 SIBTest static initialization block called");
     }
 
     public SIBTest() {
