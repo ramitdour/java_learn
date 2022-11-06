@@ -13,7 +13,7 @@ public class Main {
         // The player should be able to type commands such as "Go West", "run South", or just "East"
         // and the program will move to the appropriate location if there is one.  As at present, an
         // attempt to move in an invalid direction should print a message and remain in the same place.
-        //
+        //0
         // Single letter commands (N, W, S, E, Q) should still be available.
 
 	    Scanner scanner = new Scanner(System.in);
