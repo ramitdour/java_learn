@@ -1,6 +1,8 @@
-package Part9.examples.sets.planets2;
+package Part9.examples.sortedCollections.basket;
 
-
+/**
+ * Created by dev on 5/02/2016.
+ */
 public class Planet extends HeavenlyBody {
 
     public Planet(String name, double orbitalPeriod) {
